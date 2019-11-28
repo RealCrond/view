@@ -1,0 +1,57 @@
+﻿  StdAfx.cpp
+c:\users\liuhuan\downloads\duilib-master\duilib\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
+  UIWebBrowser.cpp
+  UIText.cpp
+c:\users\liuhuan\downloads\duilib-master\duilib\control\uitext.cpp(52): warning C4302: “类型强制转换”: 从“LPWSTR”到“WORD”截断
+  UISlider.cpp
+c:\users\liuhuan\downloads\duilib-master\duilib\control\uislider.cpp(212): warning C4302: “类型强制转换”: 从“LPWSTR”到“WORD”截断
+  UIScrollBar.cpp
+  UIRichEdit.cpp
+  UIProgress.cpp
+  UIOption.cpp
+  UIList.cpp
+c:\users\liuhuan\downloads\duilib-master\duilib\control\uilist.cpp(1781): warning C4302: “类型强制转换”: 从“LPWSTR”到“WORD”截断
+c:\users\liuhuan\downloads\duilib-master\duilib\control\uilist.cpp(2417): warning C4302: “类型强制转换”: 从“LPWSTR”到“WORD”截断
+  UILabel.cpp
+  UIGifAnim.cpp
+c:\users\liuhuan\downloads\duilib-master\duilib\control\uigifanim.cpp(1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\liuhuan\downloads\duilib-master\duilib\control\uigifanim.cpp(323): warning C4010: 单行注释包含行继续符
+c:\users\liuhuan\downloads\duilib-master\duilib\control\uigifanim.cpp(324): error C2065: “hFile”: 未声明的标识符
+c:\users\liuhuan\downloads\duilib-master\duilib\control\uigifanim.cpp(325): error C2065: “hFile”: 未声明的标识符
+c:\users\liuhuan\downloads\duilib-master\duilib\control\uigifanim.cpp(330): error C2065: “hFile”: 未声明的标识符
+c:\users\liuhuan\downloads\duilib-master\duilib\control\uigifanim.cpp(331): error C2065: “hFile”: 未声明的标识符
+  UIEdit.cpp
+c:\users\liuhuan\downloads\duilib-master\duilib\control\uiedit.cpp(288): warning C4302: “类型强制转换”: 从“LPWSTR”到“WORD”截断
+  UIDateTime.cpp
+c:\users\liuhuan\downloads\duilib-master\duilib\control\uidatetime.cpp(297): warning C4302: “类型强制转换”: 从“LPWSTR”到“WORD”截断
+  UICombo.cpp
+  UICheckBox.cpp
+  UIButton.cpp
+c:\users\liuhuan\downloads\duilib-master\duilib\control\uibutton.cpp(127): warning C4302: “类型强制转换”: 从“LPWSTR”到“WORD”截断
+  UIActiveX.cpp
+  UIVerticalLayout.cpp
+c:\users\liuhuan\downloads\duilib-master\duilib\layout\uiverticallayout.cpp(306): warning C4302: “类型强制转换”: 从“LPWSTR”到“WORD”截断
+  UITileLayout.cpp
+  UITabLayout.cpp
+  UIHorizontalLayout.cpp
+c:\users\liuhuan\downloads\duilib-master\duilib\layout\uihorizontallayout.cpp(313): warning C4302: “类型强制转换”: 从“LPWSTR”到“WORD”截断
+  正在生成代码...
+  正在编译...
+  UIChildLayout.cpp
+  UIRender.cpp
+c:\users\liuhuan\downloads\duilib-master\duilib\core\uirender.cpp(1198): warning C4838: 从“int”转换到“COLOR16”需要收缩转换
+  UIMarkup.cpp
+  UIManager.cpp
+c:\users\liuhuan\downloads\duilib-master\duilib\core\uimanager.cpp(1045): warning C4838: 从“DWORD”转换到“LONG”需要收缩转换
+  UIDlgBuilder.cpp
+  UIControl.cpp
+c:\users\liuhuan\downloads\duilib-master\duilib\core\uicontrol.cpp(832): warning C4302: “类型强制转换”: 从“LPWSTR”到“WORD”截断
+  UIContainer.cpp
+  UIBase.cpp
+  WndShadow.cpp
+  Utils.cpp
+  UIDelegate.cpp
+  WinImplBase.cpp
+  UIlib.cpp
+  UITreeView.cpp
+  正在生成代码...
