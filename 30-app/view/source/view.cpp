@@ -9,7 +9,7 @@ using namespace std;
 
 int main()
 {
-	Mat img = imread("8b1d2b63-2e02-4ebd-9344-650db12cdf52.jpg");
+	Mat img = imread("8b1d2b63-2e02-4ebd-9344-650db12cdf52.jpg",IMREAD_GRAYSCALE);
 	if ( !img.data )
 	{
 		cout << "Failed to open image!" << endl;
