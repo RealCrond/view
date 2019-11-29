@@ -7,6 +7,20 @@ using namespace std;
 
 #pragma comment(lib,"opencv_world412.lib")
 
+enum EmEvent_Api
+{
+	emFirst,
+	emSecond,
+	emThird,
+};
+
+void printName(const char* name)
+{
+	cout << "[打印变量名]  " << name << endl;
+}
+
+#define PRINTNAME(emEvent)  printName(#emEvent)
+
 int main()
 {
 	Mat img = imread("8b1d2b63-2e02-4ebd-9344-650db12cdf52.jpg",IMREAD_GRAYSCALE);
@@ -15,7 +29,20 @@ int main()
 		cout << "Failed to open image!" << endl;
 		return 1;
 	}
-	imshow("Test", img);
+	//imshow("Test", img);
+	string str = "\"abc";
+	cout << str << endl;
+
+	EmEvent_Api emEventType = emFirst;
+	//printName(#emEnvetType);
+	PRINTNAME(emEnvetType);
+
+	emEventType = emSecond;
+	PRINTNAME(emSecond);
+
+	emEventType = emThird;
+	PRINTNAME(emThird);
+
 
 	if( 'q' == waitKey(0) )
 	{ 
