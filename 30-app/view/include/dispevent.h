@@ -10,6 +10,24 @@ enum EmEvent_Api
 	emThird,
 };
 
+typedef struct tagTWebmtcMtMsg
+{
+	//tagTWebmtcMtMsg() { memset(this, 0, sizeof(tagTWebmtcMtMsg)); }
+	//signed char m_achIP[_nIPLen_Max_ + 1];                           ///< 用户IP
+	int m_nFcgiNodeId;                                      ///< Fcgi Node Id
+	//EM_EVENT_ID m_emEvtId;                                  ///< Event Id
+	//s8 m_achUserId[_nIPLen_Max_ + 1];                       ///< 用户Id (唯一标志符)
+	//u32 m_dwSessionId;                                      ///< skymtc用户Id
+	//BOOL32 bFreeLoginUser;                                  ///< 免登录用户
+	//BOOL32 bSynchronous;                                    ///< 同步消息	
+	//u32 m_dwEventType;                                      ///< EventType
+	//s32 m_dwWebapiVersion;                                 ///<  版本号长度 
+	//s8 m_achEventId[MAX_USER_NAME_LEN + 1];                  ///< 属性Id (唯一标志符)
+	//s8 m_achJsonBody[_nJsonBodyLen_Max_ + 1];              ///< Json body data
+public:
+	tagTWebmtcMtMsg() { memset(this, 0, sizeof(tagTWebmtcMtMsg)); }
+} TWebmtcMtMsg;
+
 //消息头部结构
 typedef struct tagCMessage {
 	//源结点
@@ -62,10 +80,13 @@ public:
 	CDispEvent();
 	virtual ~CDispEvent();
 	virtual void DispEvent(CMessage *const pcMsg);
+	bool HasRegEvent(signed int nEvtId) const;
 
 private:
 	std::map<unsigned short, DISPEVENT_PFUN>	m_mapMsgFunc;
 	std::map<unsigned short, std::string>		m_mapMsgHelper;
+
+
 };
 
 #define   RegMsgFunc(dwEvent, pfMsgFunc)   RegMsgFuncEx(dwEvent ,pfMsgFunc ,#dwEvent)

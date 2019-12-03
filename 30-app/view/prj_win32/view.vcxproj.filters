@@ -24,6 +24,18 @@
     <ClInclude Include="..\include\dispevent.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="..\include\firstctrl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\secondctrl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\thirdctrl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dispeventmanager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\source\CUtility.cpp">
@@ -36,6 +48,18 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="..\source\dispevent.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\firstctrl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\secondctrl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\thirdctrl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\dispeventmanager.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
