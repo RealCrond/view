@@ -1,0 +1,58 @@
+﻿  StdAfx.cpp
+e:\20191128_view_release\view\30-app\duilib\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
+  UITreeView.cpp
+  UIlib.cpp
+  WinImplBase.cpp
+  UIDelegate.cpp
+  Utils.cpp
+  WndShadow.cpp
+  UIBase.cpp
+  UIContainer.cpp
+  UIControl.cpp
+e:\20191128_view_release\view\30-app\duilib\core\uicontrol.cpp(832): warning C4302: “类型强制转换”: 从“LPWSTR”到“WORD”截断
+  UIDlgBuilder.cpp
+  UIManager.cpp
+e:\20191128_view_release\view\30-app\duilib\core\uimanager.cpp(1045): warning C4838: 从“DWORD”转换到“LONG”需要收缩转换
+  UIMarkup.cpp
+  UIRender.cpp
+e:\20191128_view_release\view\30-app\duilib\core\uirender.cpp(1198): warning C4838: 从“int”转换到“COLOR16”需要收缩转换
+  UIChildLayout.cpp
+  UIHorizontalLayout.cpp
+e:\20191128_view_release\view\30-app\duilib\layout\uihorizontallayout.cpp(313): warning C4302: “类型强制转换”: 从“LPWSTR”到“WORD”截断
+  UITabLayout.cpp
+  UITileLayout.cpp
+  UIVerticalLayout.cpp
+e:\20191128_view_release\view\30-app\duilib\layout\uiverticallayout.cpp(306): warning C4302: “类型强制转换”: 从“LPWSTR”到“WORD”截断
+  UIActiveX.cpp
+  UIButton.cpp
+e:\20191128_view_release\view\30-app\duilib\control\uibutton.cpp(127): warning C4302: “类型强制转换”: 从“LPWSTR”到“WORD”截断
+  正在生成代码...
+  正在编译...
+  UICheckBox.cpp
+  UICombo.cpp
+  UIDateTime.cpp
+e:\20191128_view_release\view\30-app\duilib\control\uidatetime.cpp(297): warning C4302: “类型强制转换”: 从“LPWSTR”到“WORD”截断
+  UIEdit.cpp
+e:\20191128_view_release\view\30-app\duilib\control\uiedit.cpp(288): warning C4302: “类型强制转换”: 从“LPWSTR”到“WORD”截断
+  UIGifAnim.cpp
+e:\20191128_view_release\view\30-app\duilib\control\uigifanim.cpp(1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  UILabel.cpp
+  UIList.cpp
+e:\20191128_view_release\view\30-app\duilib\control\uilist.cpp(1781): warning C4302: “类型强制转换”: 从“LPWSTR”到“WORD”截断
+e:\20191128_view_release\view\30-app\duilib\control\uilist.cpp(2417): warning C4302: “类型强制转换”: 从“LPWSTR”到“WORD”截断
+  UIOption.cpp
+  UIProgress.cpp
+  UIRichEdit.cpp
+  UIScrollBar.cpp
+  UISlider.cpp
+e:\20191128_view_release\view\30-app\duilib\control\uislider.cpp(212): warning C4302: “类型强制转换”: 从“LPWSTR”到“WORD”截断
+  UIText.cpp
+e:\20191128_view_release\view\30-app\duilib\control\uitext.cpp(52): warning C4302: “类型强制转换”: 从“LPWSTR”到“WORD”截断
+  UIWebBrowser.cpp
+  正在生成代码...
+  stb_image.c
+  XUnzip.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1216,5): warning MSB8012: TargetPath(E:\20191128_View_Release\view\30-app\DuiLib\.\Build\Release_u\DuiLib.dll) 与 Linker 的 OutputFile 属性值(E:\20191128_View_Release\view\30-app\bin\DuiLib_u.dll)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1218,5): warning MSB8012: TargetName(DuiLib) 与 Linker 的 OutputFile 属性值(DuiLib_u)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+    正在创建库 ../Lib/DuiLib_u.lib 和对象 ../Lib/DuiLib_u.exp
+  DuiLib.vcxproj -> E:\20191128_View_Release\view\30-app\DuiLib\.\Build\Release_u\DuiLib.dll

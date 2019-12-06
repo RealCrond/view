@@ -18,11 +18,3 @@
 #include <vector>
 #include "common.h"
 
-
-
-
-#ifdef VIEWDLL_EXPORTS
-#define VIEWDLL_API __declspec(dllexport)
-#else
-#define VIEWDLL_API __declspec(dllimport)
-#endif // VIEWDLL_EXPORTS

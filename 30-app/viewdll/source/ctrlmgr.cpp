@@ -1,6 +1,7 @@
 #include "stdafx.h"
 #include "ctrlmgr.h"
 
+CCtrlManager*   CCtrlManager::m_scInstance = NULL;
 
 CCtrlManager::CCtrlManager():
 	m_pCtrlApp1(NULL),
@@ -19,6 +20,16 @@ CCtrlManager::CCtrlManager():
 CCtrlManager::~CCtrlManager()
 {
 
+}
+
+CCtrlManager* CCtrlManager::GetInstance()
+{
+	if (NULL == m_scInstance)
+	{
+		m_scInstance = new CCtrlManager();
+	}
+
+	return m_scInstance;
 }
 
 void CCtrlManager::RegHandler(CEventDisposer* const pEventDisposer)

@@ -14,8 +14,6 @@ public:
 
 	bool HasRegEvent();
 
-	int testFunc(CMessage *const pcMsg);
-
 protected:
 	std::map<int, DISPEVENT_FUNC> m_mapMsgFunc;
 	std::map<int, std::string> m_mapMsgAlias;
@@ -41,7 +39,7 @@ private: \
 
 #define REG_MSG(eventID, callFunc)	\
 	m_mapMsgFunc.insert(	\
-	std::make_pair<int, DISPEVENT_FUNC>( eventID, (DISPEVENT_FUNC)( int (CEventDisposer::*)(CMessage *const) )&callFunc )	\
+	std::make_pair<int, DISPEVENT_FUNC>( eventID, (DISPEVENT_FUNC)&callFunc )	\
 	);	\
 
 #define END_MSG_MAP()	\

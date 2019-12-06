@@ -1,5 +1,13 @@
 #pragma once
 
+#ifdef VIEWDLL_EXPORTS
+#define VIEWDLL_API __declspec(dllexport)
+#else
+#define VIEWDLL_API __declspec(dllimport)
+#endif // VIEWDLL_EXPORTS
+
+typedef void(__stdcall *VIEWDLLCALLBACK)(UINT nEventID, WPARAM wParam, LPARAM lParam);
+
 /****************************************
 * DLL_RegisterCallBackFunc
 *
@@ -13,7 +21,13 @@
 extern "C" VIEWDLL_API bool DLL_RegisterCallBackFunc(VIEWDLLCALLBACK CallBackFunc);
 
 /****************************************
-note:
-params:
+* DLL_GetVersion
+*
+* @brief   获取版本号
+*
+* @param    [in]	achVersion       版本号
+* @return   void		
+*
+* @note
 *****************************************/
 extern "C" VIEWDLL_API void DLL_GetVersion(char* achVersion);

@@ -1,0 +1,62 @@
+﻿  StdAfx.cpp
+C:\Users\Herman\Desktop\skyshare_dui\DuiLib\Core\UIManager.h(45,2): warning C4091:  “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
+  UITreeView.cpp
+  UIlib.cpp
+  WinImplBase.cpp
+  UIDelegate.cpp
+  Utils.cpp
+  WndShadow.cpp
+  UIBase.cpp
+  UIContainer.cpp
+  UIControl.cpp
+  UIDlgBuilder.cpp
+  UIManager.cpp
+C:\Users\Herman\Desktop\skyshare_dui\DuiLib\Core\UIControl.cpp(832,40): warning C4302:  “类型强制转换”: 从“LPSTR”到“WORD”截断
+C:\Users\Herman\Desktop\skyshare_dui\DuiLib\Core\UIManager.cpp(1045,39): warning C4838:  从“DWORD”转换到“LONG”需要收缩转换
+  UIMarkup.cpp
+  UIRender.cpp
+C:\Users\Herman\Desktop\skyshare_dui\DuiLib\Core\UIManager.cpp(1045,48): warning C4838:  从“DWORD”转换到“LONG”需要收缩转换
+C:\Users\Herman\Desktop\skyshare_dui\DuiLib\Core\UIRender.cpp(1196,61): warning C4838:  从“int”转换到“COLOR16”需要收缩转换
+C:\Users\Herman\Desktop\skyshare_dui\DuiLib\Core\UIRender.cpp(1196,86): warning C4838:  从“int”转换到“COLOR16”需要收缩转换
+C:\Users\Herman\Desktop\skyshare_dui\DuiLib\Core\UIRender.cpp(1196,111): warning C4838:  从“int”转换到“COLOR16”需要收缩转换
+C:\Users\Herman\Desktop\skyshare_dui\DuiLib\Core\UIRender.cpp(1197,66): warning C4838:  从“int”转换到“COLOR16”需要收缩转换
+C:\Users\Herman\Desktop\skyshare_dui\DuiLib\Core\UIRender.cpp(1197,92): warning C4838:  从“int”转换到“COLOR16”需要收缩转换
+  UIChildLayout.cpp
+  UIHorizontalLayout.cpp
+C:\Users\Herman\Desktop\skyshare_dui\DuiLib\Core\UIRender.cpp(1197,118): warning C4838:  从“int”转换到“COLOR16”需要收缩转换
+  UITabLayout.cpp
+  UITileLayout.cpp
+  UIVerticalLayout.cpp
+C:\Users\Herman\Desktop\skyshare_dui\DuiLib\Layout\UIHorizontalLayout.cpp(313,37): warning C4302:  “类型强制转换”: 从“LPSTR”到“WORD”截断
+  UIActiveX.cpp
+  UIButton.cpp
+C:\Users\Herman\Desktop\skyshare_dui\DuiLib\Layout\UIVerticalLayout.cpp(306,37): warning C4302:  “类型强制转换”: 从“LPSTR”到“WORD”截断
+  正在生成代码...
+  正在编译...
+  UICheckBox.cpp
+  UICombo.cpp
+  UIDateTime.cpp
+C:\Users\Herman\Desktop\skyshare_dui\DuiLib\Control\UIButton.cpp(127,35): warning C4302:  “类型强制转换”: 从“LPSTR”到“WORD”截断
+  UIEdit.cpp
+C:\Users\Herman\Desktop\skyshare_dui\DuiLib\Control\UIDateTime.cpp(297,35): warning C4302:  “类型强制转换”: 从“LPSTR”到“WORD”截断
+  UIGifAnim.cpp
+  UILabel.cpp
+  UIList.cpp
+C:\Users\Herman\Desktop\skyshare_dui\DuiLib\Control\UIEdit.cpp(288,35): warning C4302:  “类型强制转换”: 从“LPSTR”到“WORD”截断
+C:\Users\Herman\Desktop\skyshare_dui\DuiLib\Control\UIList.cpp(1781,44): warning C4302:  “类型强制转换”: 从“LPSTR”到“WORD”截断
+  UIOption.cpp
+  UIProgress.cpp
+  UIRichEdit.cpp
+  UIScrollBar.cpp
+  UISlider.cpp
+C:\Users\Herman\Desktop\skyshare_dui\DuiLib\Control\UIList.cpp(2417,48): warning C4302:  “类型强制转换”: 从“LPSTR”到“WORD”截断
+  UIText.cpp
+C:\Users\Herman\Desktop\skyshare_dui\DuiLib\Control\UISlider.cpp(212,36): warning C4302:  “类型强制转换”: 从“LPSTR”到“WORD”截断
+  UIWebBrowser.cpp
+  正在生成代码...
+C:\Users\Herman\Desktop\skyshare_dui\DuiLib\Control\UIText.cpp(52,37): warning C4302:  “类型强制转换”: 从“LPSTR”到“WORD”截断
+  stb_image.c
+  XUnzip.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1264,5): warning MSB8012: TargetPath(C:\Users\Herman\Desktop\skyshare_dui\DuiLib\.\Build\Release\DuiLib.dll) does not match the Linker's OutputFile property value (C:\Users\Herman\Desktop\skyshare_dui\bin\DuiLib.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+    正在创建库 ../Lib/DuiLib.lib 和对象 ../Lib/DuiLib.exp
+  DuiLib.vcxproj -> C:\Users\Herman\Desktop\skyshare_dui\DuiLib\.\Build\Release\DuiLib.dll

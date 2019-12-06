@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Window size="500,565"  caption="0,0,0,38" maxinfo="500,565" defaultfontcolor="#FF464646">
+  <Font id="0" name="微软雅黑" size="13" bold="false" default="true"/> <!--0-->
+  <Font id="1" name="微软雅黑" size="14" bold="false"/><!--1-->
+  <Font id="2" name="微软雅黑" size="12" bold="false"/><!--2-->
+  <Font id="3" name="宋体"     size="12" bold="false"/><!--3-->
+  <Font id="4" name="微软雅黑" size="14" bold="true" /><!--4-->
+  <Font id="5" name="微软雅黑" size="16" bold="false"/><!--5-->
+  <Font id="6" name="Arial"    size="18" bold="false"/><!--6-->
+  <Font id="7" name="华文细黑" size="18" bold="true" /><!--7-->
+  <Font id="8" name="微软雅黑" size="20" bold="false"/><!--8-->
+  <Font id="9" name="微软雅黑" size="10" bold="false"/><!--9-->
+  <Font id="10" name="宋体"     size="14" bold="false"/><!--10-->
+  <Font id="11" name="微软雅黑" size="11" bold="false"/><!--11-->
+  <VerticalLayout name="MainWnd" width="500" height="565">
+  <VerticalLayout  bordersize="1" bordercolor="0xFF000000"  bkcolor="0xFFFFFFFF">
+	<VerticalLayout  height="38">
+	    <Control  height="8"/>
+		<HorizontalLayout height="35">
+			<VerticalLayout>
+				<Control height="8"/>
+				<HorizontalLayout width="356">
+					<Control width="16"/>
+					<Label name="label_main_skywalker" height="30" text="Skywalker系列内容共享软件" textcolor="0xFF545454" font="5"/>
+				</HorizontalLayout>
+				<Control height="6"/>
+			</VerticalLayout>
+			<!--<Control /> -->
+			<HorizontalLayout width="90">
+				<Button name="BtnSetting" width="30" height="30" tooltip="设置" normalimage="res='104' restype='png' source='0,0,42,34'" hotimage="res='104' restype='png' source='42,0,84,34'" /> 
+				<Button name="BtnMin" width="30" height="30" tooltip="最小化" normalimage="res='104' restype='png' source='0,0,42,34'" hotimage="res='104' restype='png' source='42,0,84,34'" />
+				<Button name="BtnClose"  width="30" height="30" tooltip="关闭" normalimage="res='104' restype='png' source='0,0,42,34'" hotimage="res='104' restype='png' source='42,0,84,34'"/>
+			</HorizontalLayout>
+			<Control width="8"/>
+		</HorizontalLayout>
+	</VerticalLayout>
+	
+	<Control height="30"/>
+	
+	<HorizontalLayout height="22">
+		<Control />
+		<VerticalLayout width="322">
+			<HorizontalLayout height="20">
+				<Edit name="EditIp" height="20" font="2" align="center" text="172.16.79.98" tooltip="请在这里输入终端地址!" focusbordercolor="0xFF0000FF" textpadding="0,-3,0,0" textcolor="0xFF616060"/>
+				<Label name="LabelSearch" width="20" height="20" font="1" bkimage="res='104' restype='png' source='0,0,42,34'" />
+				<Button name="BtnConnect" tooltip="连接" width="20" height="20" normalimage="res='104' restype='png' source='0,0,42,34'" hotimage="res='104' restype='png' source='42,0,84,34'"/>
+				<Control width="6"/>
+				<Button name="BtnClear" tooltip="清空" width="20" height="20" normalimage="res='104' restype='png' source='0,0,42,34'" hotimage="res='104' restype='png' source='42,0,84,34'"/>
+			</HorizontalLayout>
+			<Control height="1"/>
+			<Label height="1" bkcolor="0xFF000000"/>	
+		</VerticalLayout>
+		<Control />
+	</HorizontalLayout>
+	
+	<Control height="20"/>
+	
+	<HorizontalLayout height="25" name="christian_bale">
+		<HorizontalLayout width="250">
+			<Control width="131"/>
+			<VerticalLayout bkcolor="0x00000000">
+				<Button name="btn_main_saved" text="已连接    " bkcolor="0xFF0000FF" tooltip="已连接" float="true" pos="0,0,120,20" font="1" textcolor="0xFF666666" hottextcolor="0xFF666666" pushedtextcolor="0xFF666666" disabledtextcolor="0xFF333333" />
+				<Label name="label_saved" float="true" pos="0,22,50,25" bkimage="file='skinres/button_select.png'"/>
+			</VerticalLayout>	
+		</HorizontalLayout>
+		
+		<HorizontalLayout width="250">
+			<Control width="32"/>
+			<VerticalLayout bkcolor="0x00000000">
+				<Button name="btn_main_detected" bkcolor="0xFF0000FF" text="已扫描    " tooltip="已连接" float="true" pos="0,0,120,20" font="1" textcolor="0xFF666666" hottextcolor="0xFF666666" pushedtextcolor="0xFF666666" disabledtextcolor="0xFF333333" />
+				<Label name="label_detected" float="true" pos="0,22,50,25" bkimage="file='skinres/button_select.png'"/>
+			</VerticalLayout>
+		</HorizontalLayout>
+	</HorizontalLayout>
+	
+	<Control height="6" />
+	
+	<HorizontalLayout height="423" > 		
+		<VerticalLayout float="true" pos="0,0,500,423" name="listbackcontainer" bkcolor="0x00000000">
+			<Label name="listback" float="true" pos="1,0,499,356" bkimage="file='skinres/labelback.png'"/>
+			<!--<GifAnim name="radar" bkimage="res='108' restype='gif'" visible="false" float="true" pos="1,0,499,423" bkcolor="0x00FF0000"/>-->
+		</VerticalLayout>
+		
+		<HorizontalLayout float="true" pos="1,0,499,423" name="listcontrolscontainer" bkcolor="0x00000000">
+			<Control />
+			<HorizontalLayout width="498"> 
+				<VerticalLayout float="true" pos="0,0,498,373" name="listsavedcontainer" bkcolor="0x00000000">
+					<VerticalLayout float="true" pos="100,92,398,200" name="saveempty">
+						<Label name="saveemptyimage" float="true" pos="100,0,198,90" bkimage="file='skinres/unknowterminalimage.png'"/>
+						<Label name="saveemptytext" text="没有已连接的终端" float="true"  align="center" pos="0,93,298,107" textcolor="0xFFB7B7B6" font="2"/>
+					</VerticalLayout>
+					<List name="list_saved_terminals" float="true" pos="0,1,493,355" bkcolor="0x00000000" vscrollbar="true" hscrollbar="false" scrollselect="false">
+					</List>
+				</VerticalLayout>
+				<VerticalLayout float="true" pos="0,0,498,373" name="listdetectedcontainer" bkcolor="0x00000000">
+					<VerticalLayout float="true" pos="100,92,398,200" name="detectempty">
+						<Label name="detectemptyimage" float="true" pos="100,0,198,90" bkimage="res='102' restype='png'"/>
+						<Label name="detectemptytext" text="没有扫描到终端" float="true"  visible="false" align="center" pos="0,93,298,107" textcolor="0xFFB7B7B6" font="2"/>
+					</VerticalLayout>				
+					<List name="list_detected_terminals" float="true" pos="0,1,493,355" bkcolor="0x00000000" vscrollbar="true" hscrollbar="false" scrollselect="false">
+					</List>
+				</VerticalLayout>
+				
+				<HorizontalLayout float="true" pos="0,377,498,409" bkcolor="0xFF00FF00">
+					<Control />
+					<Button name="btn_main_Scan" text="扫描" tooltip="扫描" width="99" font="2" bkcolor="0xFFFF0000" textcolor="0xFFFFFFFF" hottextcolor="0xFFFFFFFF" pushedtextcolor="0xFFFFFFFF" disabledtextcolor="0xFFe5e5e5"  normalimage="file='skinres/skin2/button.png'"/>
+					<Control />
+				</HorizontalLayout>
+				<Button name="btn_main_Cancel" text="取消" tooltip="取消" float="true" pos="300,324,400,344" font="1" bkcolor="0xFF0000FF" textcolor="0xFFFFFFFF" hottextcolor="0xFFFFFFFF" pushedtextcolor="0xFFFFFFFF" disabledtextcolor="0xFFe5e5e5"  normalimage="file='skinres/skin2/button.png'"/>
+			</HorizontalLayout>
+			<Control />
+		</HorizontalLayout>		
+	</HorizontalLayout>
+  </VerticalLayout >  
+  </VerticalLayout >
+</Window>

@@ -8,8 +8,13 @@
 
 class CCtrlManager
 {
-public:
+private:
 	CCtrlManager();
+	
+
+public:
+	static CCtrlManager*	GetInstance();
+	static CCtrlManager*	m_scInstance;
 	virtual ~CCtrlManager();
 
 	void RegHandler(CEventDisposer* const pEventDisposer);

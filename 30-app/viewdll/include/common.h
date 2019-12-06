@@ -21,4 +21,3 @@ enum EmEventID
 };
 
 
-typedef void	(__stdcall *VIEWDLLCALLBACK)(UINT nEventID, WPARAM wParam, LPARAM lParam);
